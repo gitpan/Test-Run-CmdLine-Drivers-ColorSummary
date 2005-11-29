@@ -1,0 +1,13 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Test-Run-CmdLine-Drivers-ColorSummary
+version:      0.0100_00
+version_from: lib/Test/Run/CmdLine/Drivers/ColorSummary.pm
+installdirs:  site
+requires:
+    Term::ANSIColor:               0
+    Test::More:                    0
+    Test::Run::CmdLine:            0.0100
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17
